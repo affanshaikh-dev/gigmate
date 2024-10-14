@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css" rel="stylesheet" />
+    <title>Sign Up | Gigmate - Your Freelance Partner</title>
+    <link rel="stylesheet" href="css/signupfc.css">
+</head>
+
+<body>
+    <div class="signup-container">
+        <div class="form-container">
+            <form action="/submit" method="POST" class="signup-form">
+                <!-- Logo and title -->
+                <div class="header">
+                    <img src="img/gig-logo.png" alt="logo" class="logo">
+                    <h2>Signup for hiring freelancers for your tasks.</h2>
+                </div>
+
+                <!-- Social Media Signups -->
+                <div class="social-signup">
+                    <button class="social-btn apple-btn">Continue with Apple</button>
+                    <button class="social-btn google-btn">Continue with Google</button>
+                </div>
+
+                <p class="or-divider">or</p>
+
+                <!-- Signup Form Inputs -->
+                <div class="nameInput">
+                    <div class="input-group">
+                        <label for="first-name">First name</label>
+                        <input type="text" id="first-name" name="first-name" placeholder="First name" required>
+                    </div>
+
+                    <div class="input-group">
+                        <label for="last-name">Last name</label>
+                        <input type="text" id="last-name" name="last-name" placeholder="Last name" required>
+                    </div>
+                </div>
+
+                <div class="input-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" placeholder="Email" required>
+                </div>
+
+                <div class="input-group">
+                    <label for="password">Password (8 or more characters)</label>
+                    <input type="password" id="password" name="password" required>
+                </div>
+
+                <!-- States Dropdown -->
+                <div class="input-group">
+                    <label for="state">State</label>
+                    <select id="state" name="state" required>
+                        <option value="">Select State</option>
+                        <option value="Andhra Pradesh">Andhra Pradesh (Amaravati)</option>
+                        <option value="Arunachal Pradesh">Arunachal Pradesh (Itanagar)</option>
+                        <option value="Assam">Assam (Dispur)</option>
+                        <option value="Bihar">Bihar (Patna)</option>
+                        <option value="Chhattisgarh">Chhattisgarh (Raipur)</option>
+                        <option value="Goa">Goa (Panaji)</option>
+                        <option value="Gujarat">Gujarat (Gandhinagar)</option>
+                        <option value="Haryana">Haryana (Chandigarh)</option>
+                        <option value="Himachal Pradesh">Himachal Pradesh (Shimla)</option>
+                        <option value="Jharkhand">Jharkhand (Ranchi)</option>
+                        <option value="Karnataka">Karnataka (Bangalore)</option>
+                        <option value="Kerala">Kerala (Thiruvananthapuram)</option>
+                        <option value="Madhya Pradesh">Madhya Pradesh (Bhopal)</option>
+                        <option value="Maharashtra">Maharashtra (Mumbai)</option>
+                        <option value="Manipur">Manipur (Imphal)</option>
+                        <option value="Meghalaya">Meghalaya (Shillong)</option>
+                        <option value="Mizoram">Mizoram (Aizawl)</option>
+                        <option value="Nagaland">Nagaland (Kohima)</option>
+                        <option value="Odisha">Odisha (Bhubaneshwar)</option>
+                        <option value="Punjab">Punjab (Chandigarh)</option>
+                        <option value="Rajasthan">Rajasthan (Jaipur)</option>
+                        <option value="Sikkim">Sikkim (Gangtok)</option>
+                        <option value="Tamil Nadu">Tamil Nadu (Chennai)</option>
+                        <option value="Telangana">Telangana (Hyderabad)</option>
+                        <option value="Tripura">Tripura (Agartala)</option>
+                        <option value="Uttarakhand">Uttarakhand (Dehradun)</option>
+                        <option value="Uttar Pradesh">Uttar Pradesh (Lucknow)</option>
+                        <option value="West Bengal">West Bengal (Kolkata)</option>
+                    </select>
+                </div>
+
+                <!-- Checkbox Options -->
+                <div class="checkbox-group">
+                    <label>
+                        <input type="checkbox" name="email_updates" checked>
+                        Send me helpful emails to find rewarding work and job leads.
+                    </label>
+                </div>
+
+                <div class="checkbox-group">
+                    <label>
+                        <input type="checkbox" name="terms" required>
+                        Yes, I understand and agree to the
+                        <a href="#">Gigmate Terms of Service</a>, including the
+                        <a href="#">User Agreement</a> and
+                        <a href="#">Privacy Policy</a>.
+                    </label>
+                </div>
+
+                <!-- Submit Button -->
+                <div class="button-group">
+                    <button type="submit" class="btn">Create my account</button>
+                </div>
+
+                <!-- Login Link -->
+                <div class="login-link">
+                    Already have an account? <a href="login.html">Log In</a>
+                </div>
+            </form>
+        </div>
+        <a href="index.html" class="backBtn">
+            <i class="ri-arrow-left-line"></i>
+        </a>
+    </div>
+</body>
+
+</html>
